@@ -23,5 +23,5 @@ JSON dosyasından verileri çekerek PatikaStore mobil uygulaması.
 # Proje Görseli:
 
 
-![Projenin Görseli:](./image.jpg)
+![Proje Görseli:](image.jpg)
 
