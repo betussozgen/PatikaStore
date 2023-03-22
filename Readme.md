@@ -1,8 +1,8 @@
-##PATIKASTORE
+## PATIKASTORE
 
 JSON dosyasından verileri çekerek PatikaStore mobil uygulaması.
 
-#İçindekiler:
+# İçindekiler:
 
 [Header Sayfası:](./src/components/Header.js)
 
@@ -16,9 +16,11 @@ JSON dosyasından verileri çekerek PatikaStore mobil uygulaması.
 
 [Products Style Sayfası:](./src/components/Products.style.js)
 
-[Products Sayfası:](./src/components/)
 
 
+
+
+# Proje Görseli:
 
 
 ![Projenin Görseli:](./image.jpg)
