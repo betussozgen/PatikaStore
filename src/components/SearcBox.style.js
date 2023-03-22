@@ -6,6 +6,6 @@ import { StyleSheet
     input: {
        backgroundColor: '#DCDCDC',
        borderRadius: 10,
-       margin:10,
+       margin:3,
     }
  })
