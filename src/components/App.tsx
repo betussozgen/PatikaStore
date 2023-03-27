@@ -14,10 +14,10 @@ import {
   StyleSheet,
   TouchableOpacity,
 } from 'react-native';
-import Products from './Products';
+import Products from './Products/Products';
 import products_data from './products_data.json'
-import SearchBox from './SearchBox';
-import Header from './Header';
+import SearchBox from './SearchBox/SearchBox';
+import Header from './Header/Header';
 
 function App() {
   //const renderProduct = ({item}: {item: any}) => <Products products={item}/>;
