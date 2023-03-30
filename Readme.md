@@ -16,6 +16,11 @@ JSON dosyasından verileri çekerek PatikaStore mobil uygulaması.
 
 [Products Style Sayfası:](./src/components/Products.style.js)
 
+# Özellikler:
+
+
+![Filtreleme İşlemi:](./image/filtreleme.jpg)
+
 
 
 
@@ -23,5 +28,5 @@ JSON dosyasından verileri çekerek PatikaStore mobil uygulaması.
 # Proje Görseli:
 
 
-![Proje Görseli:](./patikaStore.jpg)
+![Proje Görseli:](./image/patikaStore.jpg)
 
