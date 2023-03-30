@@ -6,15 +6,16 @@ StyleSheet
 } from "react-native"
 import styles from "./SearcBox.style"
 
-const SearchBox = () => {
-    const [text, onChangeText] = React.useState("")
+const SearchBox = (props) => {
+    
+    
     return (
         <SafeAreaView>
             <TextInput
                 style={styles.input}
-                onChangeText={onChangeText}
-                value={text}
                 placeholder="Ara..."
+                onChangeText={props.onSearch}
+                
             />
         </SafeAreaView>
 

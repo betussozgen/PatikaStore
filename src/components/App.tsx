@@ -20,15 +20,29 @@ import SearchBox from './SearchBox/SearchBox';
 import Header from './Header/Header';
 
 function App() {
-  //const renderProduct = ({item}: {item: any}) => <Products products={item}/>;
+ 
+
+  const [list, setList] = useState(products_data);
+
+  const heandleSearch = text => {
+    const filteredList = products_data.filter( products => {
+      const searchedText = text.toLowerCase(); //Kullanıcının  girdiği harfi lower yaptım.
+      const currentTittle = products.title.toLowerCase() // o an dönen title lowecase yaptım.
+
+      return currentTittle.indexOf(searchedText) > -1; //products ta kullanıcının girdiği harf var mı yok mu
+    })
+
+    setList(filteredList);
+
+  }
   return (
     <SafeAreaView style={styles.container}>
       <Header />
-      <SearchBox />
+      <SearchBox onSearch={heandleSearch}/>
       <FlatList
         //showsVerticalScrollIndicator={true}
         renderItem={({ item }) => <Products products={item} />}
-        data={products_data}
+        data={list}
         numColumns={2}
       //keyExtractor={(item)=> item.id.toString()}
       />
